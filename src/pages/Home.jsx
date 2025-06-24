@@ -41,6 +41,7 @@ export default function Home() {
   return (
     <div style={{ padding: '2rem' }}>
       <h1>Productos destacados</h1>
+      <h3>Registrate para comprar</h3>
 
       {/* Buscador y filtro */}
       <div style={{ marginBottom: '1rem', display: 'flex', gap: '1rem' }}>
