@@ -8,7 +8,7 @@ export default function Home() {
   const [currentPage, setCurrentPage] = useState(1)
   const [buscar, setBuscar] = useState('')
   const [categoria, setCategoria] = useState('')
-  const limit = 12
+  const limit = 8
   const [banner, setBanner] = useState(null);
 
   useEffect(() => {
